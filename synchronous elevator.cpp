@@ -6,7 +6,8 @@ using namespace std;
 bool findlift(int A[],int lift)
 {
     for(int i=0; i<10; i++)
-        if(A[i]==lift)return false;
+        if(A[i]==lift)
+            return false;
     return true;
 }
 bool check(int f, int A[],int lift)
